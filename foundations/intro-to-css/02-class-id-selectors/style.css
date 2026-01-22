@@ -1,1 +1,15 @@
 /* Add CSS Styling */
+p {
+    background-color: rgb(255, 120, 120);
+    font-family: Verdana, "DejaVu Sans", sans-serif;}
+#big {
+    color: rgb(0, 0, 230);
+    font-size: 36px;}
+
+.cool {font-size: 24px}
+
+#another {background-color: rgb(64, 201, 64);
+    font-size: 24px;
+    font-weight: 700;
+
+}
