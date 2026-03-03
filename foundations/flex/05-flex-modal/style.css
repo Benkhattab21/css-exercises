@@ -12,7 +12,7 @@ body {
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
 }
 
 .modal {
@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 17px;   
 }
 
 .icon {
@@ -39,8 +40,8 @@ body {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 900;
+  font-size: 4px;
   height: 24px;
   width: 24px;
   display: flex;
@@ -48,6 +49,16 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin: auto;
+  margin-right: 0;
+  display: flex;
+  font-size: small; 
+}
+
+.info {
+  padding-left: 60px;
+  margin: 0;  
+  
 }
 
 button {
@@ -66,4 +77,32 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  
+}
+
+ 
+
+.header {
+  font-weight: bold;
+  padding-top: auto;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  
+
+}
+.text {
+  display: flex;
+  align-content: center;
+  margin-bottom: 20px;
+  width: 420px;
+  justify-content: center;
+  margin-top: 0;
+  
+}
+
+.c {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
 }
